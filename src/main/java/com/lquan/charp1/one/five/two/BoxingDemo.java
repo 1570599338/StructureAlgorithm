@@ -7,9 +7,6 @@ import com.lquan.charp1.one.five.one.GenericMemoryCell;
  * @author lquan
  * 自动拆箱：原理：Integer对象被放到需要int变量的地方，则编译器将在幕后插入一个对intValue方法的调用，这叫做自动拆箱。
  * 		   why：典型理由因为封装类型是不能进行运算的，只有转换成基本类型才能进行运算。
- * 
- * 
- * 
  */
 public class BoxingDemo {
 
