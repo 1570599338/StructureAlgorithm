@@ -13,8 +13,15 @@ public class Test {
 		listInt.add(1);
 		listInt.add(0, 1);
 		listInt.get(1);
-		System.out.println(0>>1);
+		//System.out.println(0>>1);
+		listInt.remove(1);
 		
+		// copy函数
+		int[]  srcList={1,2,3,4,5};
+		int[]  descList={8,9};
+		System.arraycopy(srcList, 0, descList, 0, Math.min(srcList.length, descList.length));
+		for(int bx:descList)
+			System.out.println(bx);
 	}
 
 }

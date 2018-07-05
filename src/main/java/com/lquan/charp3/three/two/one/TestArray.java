@@ -19,8 +19,8 @@ public class TestArray {
 		//Arrays
 		String [] brr={"a","b","4"};
 		//System.arraycopy(brr, 0, arr, 0, Math.min(brr.length, arr.length));
-		for(String aax:brrr)
-		System.out.println(aax);
+//		for(String aax:brrr)
+//		System.out.println(aax);
 		
 		int[]  x={1,2,3,4,5};
 		System.arraycopy(x, 0, arr, 0, Math.min(x.length, arr.length));
