@@ -12,6 +12,8 @@ public class Test {
 		List<Integer> listInt2 = new LinkedList<>();
 		listInt.add(1);
 		listInt.add(0, 1);
+		System.out.println(9>>1);
+		//listInt.
 		
 	}
 
