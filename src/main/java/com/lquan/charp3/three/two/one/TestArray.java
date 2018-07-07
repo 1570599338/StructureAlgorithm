@@ -1,6 +1,5 @@
 package com.lquan.charp3.three.two.one;
 
-import java.util.Arrays;
 
 /**
  * 表 -- 数组的简单扩容源码问题
