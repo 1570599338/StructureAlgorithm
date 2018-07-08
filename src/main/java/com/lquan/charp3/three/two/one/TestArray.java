@@ -22,7 +22,7 @@ public class TestArray {
 //		System.out.println(aax);
 		
 		int[]  x={1,2,3,4,5};
-		System.arraycopy(x, 0, arr, 0, Math.min(x.length, arr.length));
+		System.arraycopy(x, 0, arr, 5, Math.min(x.length, arr.length));
 		for(int bx:arr)
 		System.out.println(bx);
 	}
