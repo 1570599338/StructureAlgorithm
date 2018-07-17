@@ -5,6 +5,7 @@ package com.lquan.charp3.three.queue;
  * 给予数组的实现方式
  * @author lquan
  *
+ *
  * @param <E>
  */
 public class Queue<E> {
